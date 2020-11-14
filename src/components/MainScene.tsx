@@ -8,7 +8,7 @@ export default function MainScene() {
   return (
     <div className="main-canvas">
       <Canvas>
-        <CameraControls mounted={true} />
+        <CameraControls />
         <ambientLight />
         <BaseObject />
         <pointLight position={[10, 10, 10]} />
